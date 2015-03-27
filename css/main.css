@@ -1,0 +1,145 @@
+#feed-finder form {
+    padding-bottom: 2.0em;
+    border-bottom: 1px dashed #333;
+    margin-bottom: 2.0em;
+}
+#feed-finder form.multi .inside {
+    margin-left: 1.0em;
+    border-left: 3px solid #333;
+    padding-left: 2.0em;
+}
+
+#feed-finder form fieldset {
+    clear: both;
+    border: 1px solid #777;
+    padding: 5px 25px;
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#feed-finder form fieldset.alt {
+    background-color: #eee;
+}
+#feed-finder form fieldset.current {
+    background-color: #efe;
+}
+#feed-finder form fieldset.current legend {
+    background-color: #7f7;
+}
+#feed-finder form fieldset legend {
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #7FF;
+    padding: 3px 10px;
+    font-weight: bold;
+}
+#feed-finder form fieldset label {
+    font-weight: bold;
+}
+#feed-finder form fieldset div.submit {
+    clear: both;
+    text-align: left;
+}
+#feed-finder form fieldset div.submit input {
+    margin-right: 3.0em;
+}
+
+#feed-finder .feed-sample {
+    float: right;
+    background-color: #D0D0D0;
+    color: black;
+    width: 45%;
+    font-size: 70%;
+    border-left: 1px dotted #A0A0A0;
+    margin-left: 1.0em;
+    padding: 3px;
+    max-height: 200px;
+    overflow: auto;
+}
+#feed-finder .feed-sample p, .feed-sample h3 {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+#feed-finder .feed-sample .feed-problem {
+    background-color: #ffd0d0;
+    border-bottom: 1px dotted black;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+.full-width {
+    width:100%;
+}
+.category-input {
+    width:25%;
+    float:left;
+    overflow: hidden;
+    min-height: 30px;
+}
+
+#rule_tags:disabled {
+    background: #ece6f6;
+}
+.rule-form .popular-category {
+    list-style:none;
+}
+.rule-form .category-list li .children {
+    margin-left:30px;
+}
+.rule-form #submitdiv {
+    position:fixed;
+}
+.publisher-image img {
+    width: 100%;
+}
+
+
+
+
+
+/**
+    Styling Admin
+*/
+#wpadminbar,
+/*Top bar dropdowns*/
+#wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input,
+/*top menu*/
+#wpadminbar .ab-top-menu > li.hover > .ab-item, #wpadminbar .ab-top-menu > li:hover > .ab-item, #wpadminbar .ab-top-menu > li > .ab-item:focus, #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus,
+/*buttons*/
+.wp-core-ui .button-primary,
+#wpadminbar, #wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input, #wpadminbar .ab-top-menu > li.hover > .ab-item, #wpadminbar .ab-top-menu > li:hover > .ab-item, #wpadminbar .ab-top-menu > li > .ab-item:focus, #wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus, .wp-core-ui .button-primary,
+.wp-core-ui .button-primary-disabled, .wp-core-ui .button-primary.disabled, .wp-core-ui .button-primary:disabled, .wp-core-ui .button-primary[disabled] {
+    /*background: none repeat scroll 0 0 #e15349!important;*/
+    /*border-color: #ef4832!important;*/
+    color: white!important;
+}
+.wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:hover,
+.wrap .add-new-h2:hover {
+    /*background: none repeat scroll 0 0 #ef4832;*/
+    /*border-color: #e15349;*/
+}
+/*The text inside the top toolbar*/
+#wpadminbar #adminbarsearch:before, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before,
+#wpadminbar a.ab-item, #wpadminbar > #wp-toolbar span.ab-label, #wpadminbar > #wp-toolbar span.noticon,
+#wpadminbar #adminbarsearch:before, #wpadminbar .ab-icon:before, #wpadminbar .ab-item:before, #wpadminbar a.ab-item, #wpadminbar > #wp-toolbar span.ab-label, #wpadminbar > #wp-toolbar span.noticon,
+/*top toolbar links*/
+#wpadminbar .quicklinks .menupop ul li a:focus, #wpadminbar .quicklinks .menupop ul li a:focus strong, #wpadminbar .quicklinks .menupop.hover ul li a:focus, #wpadminbar .quicklinks .menupop.hover ul li a:hover, #wpadminbar li .ab-item:focus:before, #wpadminbar li a:focus .ab-icon:before, #wpadminbar li.hover .ab-icon:before, #wpadminbar li.hover .ab-item:before, #wpadminbar li:hover #adminbarsearch:before, #wpadminbar li:hover .ab-icon:before, #wpadminbar li:hover .ab-item:before, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover,
+/*left menu text */
+#adminmenu .wp-submenu a:focus, #adminmenu .wp-submenu a:hover, #adminmenu a:hover, #adminmenu li.menu-top > a:focus
+{
+    color: white !important;
+}
+#wpadminbar .quicklinks .menupop ul li a:hover, #wpadminbar .quicklinks .menupop ul li a:hover strong, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover {
+    text-decoration: underline!important;
+}
+/*Left sidebar menu, current item*/
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu {
+    background: #000000;
+}
